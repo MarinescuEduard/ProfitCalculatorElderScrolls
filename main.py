@@ -226,11 +226,11 @@ def gofhealth():
     print()
     print("Truly Superb Glyph of Health")
     print()
-    x = df['Glyph Price'][0] + df['Glyph Price'][1] + df['Glyph Price'][14]
+    currentPrice = df['Glyph Price'][0] + df['Glyph Price'][1] + df['Glyph Price'][14]
     print("Selling price is " + str(df['Enchantments Price'][0]))
-    sp = df['Enchantments Price'][0]
-    print("Cost/1 = " + str(round(x, 2)) + ". Cost/50 = " + str(fiftyPieces(x)))
-    finalResult(x, sp)
+    sellingPrice = df['Enchantments Price'][0]
+    print("Cost/1 = " + str(round(currentPrice, 2)) + ". Cost/50 = " + str(fiftyPieces(currentPrice)))
+    finalResult(currentPrice, sellingPrice)
     print()
 
 
@@ -238,11 +238,11 @@ def gofmagicka():
     print()
     print("Truly Superb Glyph of Magicka")
     print()
-    x = df['Glyph Price'][0] + df['Glyph Price'][2] + df['Glyph Price'][14]
+    currentPrice = df['Glyph Price'][0] + df['Glyph Price'][2] + df['Glyph Price'][14]
     print("Selling price is " + str(df['Enchantments Price'][1]))
-    sp = df['Enchantments Price'][1]
-    print("Cost/1 = " + str(round(x, 2)) + ". Cost/50 = " + str(fiftyPieces(x)))
-    finalResult(x, sp)
+    sellingPrice = df['Enchantments Price'][1]
+    print("Cost/1 = " + str(round(currentPrice, 2)) + ". Cost/50 = " + str(fiftyPieces(currentPrice)))
+    finalResult(currentPrice, sellingPrice)
     print()
 
 
@@ -250,11 +250,11 @@ def gofstamina():
     print()
     print("Truly Superb Glyph of Stamina")
     print()
-    x = df['Glyph Price'][0] + df['Glyph Price'][3] + df['Glyph Price'][14]
+    currentPrice = df['Glyph Price'][0] + df['Glyph Price'][3] + df['Glyph Price'][14]
     print("Selling price is " + str(df['Enchantments Price'][2]))
-    sp = df['Enchantments Price'][2]
-    print("Cost/1 = " + str(round(x, 2)) + ". Cost/50 = " + str(fiftyPieces(x)))
-    finalResult(x, sp)
+    sellingPrice = df['Enchantments Price'][2]
+    print("Cost/1 = " + str(round(currentPrice, 2)) + ". Cost/50 = " + str(fiftyPieces(currentPrice)))
+    finalResult(currentPrice, sellingPrice)
     print()
 
 
@@ -262,11 +262,11 @@ def gofprismatic():
     print()
     print("Truly Superb Glyph of Prismatic Defense")
     print()
-    x = df['Glyph Price'][0] + df['Glyph Price'][4] + df['Glyph Price'][14]
+    currentPrice = df['Glyph Price'][0] + df['Glyph Price'][4] + df['Glyph Price'][14]
     print("Selling price is " + str(df['Enchantments Price'][3]))
-    sp = df['Enchantments Price'][3]
-    print("Cost/1 = " + str(round(x, 2)) + ". Cost/50 = " + str(fiftyPieces(x)))
-    finalResult(x, sp)
+    sellingPrice = df['Enchantments Price'][3]
+    print("Cost/1 = " + str(round(currentPrice, 2)) + ". Cost/50 = " + str(fiftyPieces(currentPrice)))
+    finalResult(currentPrice, sellingPrice)
     print()
 
 
@@ -274,11 +274,11 @@ def gofflame():
     print()
     print("Truly Superb Glyph of Flame")
     print()
-    x = df['Glyph Price'][0] + df['Glyph Price'][5] + df['Glyph Price'][14]
+    currentPrice = df['Glyph Price'][0] + df['Glyph Price'][5] + df['Glyph Price'][14]
     print("Selling price is " + str(df['Enchantments Price'][4]))
-    sp = df['Enchantments Price'][4]
-    print("Cost/1 = " + str(round(x, 2)) + ". Cost/50 = " + str(fiftyPieces(x)))
-    finalResult(x, sp)
+    sellingPrice = df['Enchantments Price'][4]
+    print("Cost/1 = " + str(round(currentPrice, 2)) + ". Cost/50 = " + str(fiftyPieces(currentPrice)))
+    finalResult(currentPrice, sellingPrice)
     print()
 
 
@@ -286,11 +286,11 @@ def gofshock():
     print()
     print("Truly Superb Glyph of Shock")
     print()
-    x = df['Glyph Price'][0] + df['Glyph Price'][6] + df['Glyph Price'][14]
+    currentPrice = df['Glyph Price'][0] + df['Glyph Price'][6] + df['Glyph Price'][14]
     print("Selling price is " + str(df['Enchantments Price'][5]))
-    sp = df['Enchantments Price'][5]
-    print("Cost/1 = " + str(round(x, 2)) + ". Cost/50 = " + str(fiftyPieces(x)))
-    finalResult(x, sp)
+    sellingPrice = df['Enchantments Price'][5]
+    print("Cost/1 = " + str(round(currentPrice, 2)) + ". Cost/50 = " + str(fiftyPieces(currentPrice)))
+    finalResult(currentPrice, sellingPrice)
     print()
 
 
@@ -298,11 +298,11 @@ def gofweapon():
     print()
     print("Truly Superb Glyph of Weapon Damage")
     print()
-    x = df['Glyph Price'][0] + df['Glyph Price'][7] + df['Glyph Price'][14]
+    currentPrice = df['Glyph Price'][0] + df['Glyph Price'][7] + df['Glyph Price'][14]
     print("Selling price is " + str(df['Enchantments Price'][6]))
-    sp = df['Enchantments Price'][6]
-    print("Cost/1 = " + str(round(x, 2)) + ". Cost/50 = " + str(fiftyPieces(x)))
-    finalResult(x, sp)
+    sellingPrice = df['Enchantments Price'][6]
+    print("Cost/1 = " + str(round(currentPrice, 2)) + ". Cost/50 = " + str(fiftyPieces(currentPrice)))
+    finalResult(currentPrice, sellingPrice)
     print()
 
 
@@ -310,11 +310,11 @@ def gofcrushing():
     print()
     print("Truly Superb Glyph of Crushing")
     print()
-    x = df['Glyph Price'][8] + df['Glyph Price'][9] + df['Glyph Price'][14]
+    currentPrice = df['Glyph Price'][8] + df['Glyph Price'][9] + df['Glyph Price'][14]
     print("Selling price is " + str(df['Enchantments Price'][7]))
-    sp = df['Enchantments Price'][7]
-    print("Cost/1 = " + str(round(x, 2)) + ". Cost/50 = " + str(fiftyPieces(x)))
-    finalResult(x, sp)
+    sellingPrice = df['Enchantments Price'][7]
+    print("Cost/1 = " + str(round(currentPrice, 2)) + ". Cost/50 = " + str(fiftyPieces(currentPrice)))
+    finalResult(currentPrice, sellingPrice)
     print()
 
 
@@ -322,11 +322,11 @@ def gofphysical():
     print()
     print("Truly Superb Glyph of Increased Physical Harm")
     print()
-    x = df['Glyph Price'][0] + df['Glyph Price'][10] + df['Glyph Price'][14]
+    currentPrice = df['Glyph Price'][0] + df['Glyph Price'][10] + df['Glyph Price'][14]
     print("Selling price is " + str(df['Enchantments Price'][8]))
-    sp = df['Enchantments Price'][8]
-    print("Cost/1 = " + str(round(x, 2)) + ". Cost/50 = " + str(fiftyPieces(x)))
-    finalResult(x, sp)
+    sellingPrice = df['Enchantments Price'][8]
+    print("Cost/1 = " + str(round(currentPrice, 2)) + ". Cost/50 = " + str(fiftyPieces(currentPrice)))
+    finalResult(currentPrice, sellingPrice)
     print()
 
 
@@ -334,11 +334,11 @@ def gofmagical():
     print()
     print("Truly Superb Glyph of Increased Magical Harm")
     print()
-    x = df['Glyph Price'][0] + df['Glyph Price'][11] + df['Glyph Price'][14]
+    currentPrice = df['Glyph Price'][0] + df['Glyph Price'][11] + df['Glyph Price'][14]
     print("Selling price is " + str(df['Enchantments Price'][9]))
-    sp = df['Enchantments Price'][9]
-    print("Cost/1 = " + str(round(x, 2)) + ". Cost/50 = " + str(fiftyPieces(x)))
-    finalResult(x, sp)
+    sellingPrice = df['Enchantments Price'][9]
+    print("Cost/1 = " + str(round(currentPrice, 2)) + ". Cost/50 = " + str(fiftyPieces(currentPrice)))
+    finalResult(currentPrice, sellingPrice)
     print()
 
 
@@ -346,11 +346,11 @@ def gofmagickarecovery():
     print()
     print("Truly Superb Glyph of Magicka Recovery")
     print()
-    x = df['Glyph Price'][0] + df['Glyph Price'][12] + df['Glyph Price'][14]
+    currentPrice = df['Glyph Price'][0] + df['Glyph Price'][12] + df['Glyph Price'][14]
     print("Selling price is " + str(df['Enchantments Price'][10]))
-    sp = df['Enchantments Price'][10]
-    print("Cost/1 = " + str(round(x, 2)) + ". Cost/50 = " + str(fiftyPieces(x)))
-    finalResult(x, sp)
+    sellingPrice = df['Enchantments Price'][10]
+    print("Cost/1 = " + str(round(currentPrice, 2)) + ". Cost/50 = " + str(fiftyPieces(currentPrice)))
+    finalResult(currentPrice, sellingPrice)
     print()
 
 
@@ -358,11 +358,11 @@ def gofstaminarecovery():
     print()
     print("Truly Superb Glyph of Stamina Recovery")
     print()
-    x = df['Glyph Price'][0] + df['Glyph Price'][13] + df['Glyph Price'][14]
+    currentPrice = df['Glyph Price'][0] + df['Glyph Price'][13] + df['Glyph Price'][14]
     print("Selling price is " + str(df['Enchantments Price'][11]))
-    sp = df['Enchantments Price'][11]
-    print("Cost/1 = " + str(round(x, 2)) + ". Cost/50 = " + str(fiftyPieces(x)))
-    finalResult(x, sp)
+    sellingPrice = df['Enchantments Price'][11]
+    print("Cost/1 = " + str(round(currentPrice, 2)) + ". Cost/50 = " + str(fiftyPieces(currentPrice)))
+    finalResult(currentPrice, sellingPrice)
     print()
 
 
@@ -371,11 +371,11 @@ def intro():
     print("1. Food prices")
     print("2. Potions prices")
     print("3. Enchantment prices")
-    q = int(input())
-    while q not in range(1, 4):
+    chosenOption = int(input())
+    while chosenOption not in range(1, 4):
         print("Please insert a number between 1 and 3")
-        q = input()
-    return int(q)
+        chosenOption = input()
+    return int(chosenOption)
 
 
 def foodprices():
@@ -390,11 +390,11 @@ def foodprices():
     print("8. Purifying Bloody Mara")
     print("9. Bewitched Sugar Skull")
     print("10. All of the above")
-    q = int(input())
-    while q not in range(1, 11):
+    chosenOption = int(input())
+    while chosenOption not in range(1, 11):
         print("Please insert a number from 1 to 10")
-        q = int(input())
-    return q
+        chosenOption = int(input())
+    return chosenOption
 
 
 def potionsprices():
@@ -405,11 +405,11 @@ def potionsprices():
     print("4. Essence of Immovability (Magicka)")
     print("5. Essence of Immovability (Stamina)")
     print("6. All of the above")
-    q = int(input())
-    while q not in range(1, 7):
+    chosenOption = int(input())
+    while chosenOption not in range(1, 7):
         print("Please insert a number from 1 to 6")
-        q = int(input())
-    return q
+        chosenOption = int(input())
+    return chosenOption
 
 
 def enchantprices():
@@ -427,53 +427,53 @@ def enchantprices():
     print("11. Truly superb glyph of magicka recovery.")
     print("12. Truly superb glyph of stamina recovery.")
     print("13. All of the above")
-    q = int(input())
-    while q not in range(1, 14):
+    chosenOption = int(input())
+    while chosenOption not in range(1, 14):
         print("Please insert a number from 1 to 6")
-        q = int(input())
-    return q
+        chosenOption = int(input())
+    return chosenOption
 
 
 def morefood():
     print("Would you like to check another food? Y/N")
-    q = str(input())
-    while q != "Y" or q != "N":
-        if q == "Y":
+    chosenOption = str(input())
+    while chosenOption != "Y" or chosenOption != "N":
+        if chosenOption == "Y":
             return 0
-        elif q == "N":
+        elif chosenOption == "N":
             print("Okay, thank you!")
             return 1
         else:
             print("Please enter Y or N")
-            q = input()
+            chosenOption = input()
 
 
 def morepotions():
     print("Would you like to check another potion? Y/N")
-    q = str(input())
-    while q != "Y" or q != "N":
-        if q == "Y":
+    chosenOption = str(input())
+    while chosenOption != "Y" or chosenOption != "N":
+        if chosenOption == "Y":
             return 0
-        elif q == "N":
+        elif chosenOption == "N":
             print("Okay, thank you!")
             return 1
         else:
             print("Please enter Y or N")
-            q = input()
+            chosenOption = input()
 
 
 def moreenchants():
     print("Would you like to check another enchant? Y/N")
-    q = str(input())
-    while q != "Y" or q != "N":
-        if q == "Y":
+    chosenOption = str(input())
+    while chosenOption != "Y" or chosenOption != "N":
+        if chosenOption == "Y":
             return 0
-        elif q == "N":
+        elif chosenOption == "N":
             print("Okay, thank you!")
             return 1
         else:
             print("Please enter Y or N")
-            q = input()
+            chosenOption = input()
 
 
 m1 = intro()
